@@ -1,58 +1,57 @@
 {
   "meta": {
-    "title": "DP for your portfolio",
-    "defaultLanguage": "English"
+    "title": "Berchil",
+    "defaultLanguage": "Français"
   },
   "aboutMe": {
-    "name": "Min Kyung Kang",
-    "nickName": "nickName!",
+    "name": "BERCHIL Idriss",
+    "nickName": "Portfolio",
     "profileImg": "../assets/images/me.gif",
-    "email": "mnk918p@gmail.com",
-    "githubUrl": "https://github.com/ddongule",
-    "blogUrl": "https://mingule.tistory.com/",
-    "linkedInUrl": "https://www.linkedin.com/"
+    "email": "idrissberchil@fedora.email",
+    "githubUrl": "https://github.com/clownvar",
+    "blogUrl": "",
+    "linkedInUrl": "https://linkedin.com/in/idriss-berchil"
   },
 
   "skillSets": [
     {
-      "category": "Front End Skills",
+      "category": "Frameworks",
       "skills": [
-        { "skill": "Javascript", "level": "5" },
-        { "skill": "HTML/CSS(SASS)", "level": "5" },
-        { "skill": "React", "level": "5" },
-        { "skill": "Typescript", "level": "4" }
+        { "skill": "Django", "level": "3" },
+        { "skill": "React", "level": "1" }
       ]
     },
     {
-      "category": "Back End Skills",
+      "category": "Coding Languages",
       "skills": [
-        { "skill": "Python", "level": "3" },
-        { "skill": "Django", "level": "2" },
-        { "skill": "Django-Rest-Framework", "level": "1" },
-        { "skill": "Java", "level": "5" },
-        { "skill": "Spring", "level": "5" },
-        { "skill": "Ruby", "level": "4" },
-        { "skill": "Ruby-on-Rails", "level": "5" }
+        { "skill": "Python", "level": "4" },
+
+        { "skill": "Java", "level": "3" },
+        { "skill": "C#", "level": "4" },
+        { "skill": "C", "level": "3" },
+        { "skill": "Javascript", "level": "3" },
+        { "skill": "Typescript", "level": "2" },
+        { "skill": "HTML/CSS(SASS)", "level": "4" }
       ]
     },
     {
       "category": "Collaboration Skills",
       "skills": [
-        { "skill": "Git/Github" },
-        { "skill": "Notion" },
-        { "skill": "Slack" },
-        { "skill": "Swit" }
+        { "skill": "Git/Github" }
+      ]
+    },
+    {
+      "category": "SQL Database",
+      "skills": [
+        { "skill": "SQL Server"},
+        { "skill": "SQLite" },
+        { "skill": "PosgreSQL" }
       ]
     },
     {
       "category": "Etc...",
       "skills": [
-        { "skill": "Netlify" },
-        { "skill": "Heroku" },
-        { "skill": "Pythonanywhere" },
-        { "skill": "AWS EC2" },
-        { "skill": "AWS Beanstalk" },
-        { "skill": "Docker" }
+        { "skill": "Heroku" }
       ]
     }
   ],

@@ -12,8 +12,8 @@ const ThemeMode = () => {
     <div className='container'>
       <div className='language'>
         <select defaultValue={currentLanguage} onChange={changeLanguage}>
-          <option value='Korean'>Korean 🇰🇷</option>
-          <option value='English'>English 🇺🇸</option>
+          <option value='English'>English</option>
+          <option value='Français'>Français</option>
         </select>
       </div>
       <div className='theme-container'>

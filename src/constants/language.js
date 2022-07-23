@@ -1,4 +1,4 @@
 export const LANGUAGE = {
   EN: 'English',
-  KO: 'Korean',
+  FR: 'Français'
 };

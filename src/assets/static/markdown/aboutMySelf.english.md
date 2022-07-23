@@ -2,15 +2,19 @@
 
 # Hi!
 
-## my Name is **ddongule**
+## my Name is **Berchil Idriss**
 
-## I am Software Engineer
+<br/>
 
-## **Professional in Front-End**
+## I'm a developper who has been building program interfaces, softwares for companies and as personal projects.
+
+<!--
+<br />
+
 
 <br />
 
-### My Github is .. [www.github.com/ddongule](www.github.com/ddongule)
+### My Github is .. [github.com/clownvar](https://github.com/clownvar)
 
 <br />
 
@@ -22,7 +26,7 @@
 
 <br /><br />
 
-I am Good at `React.js`, `HTML/CSS(SASS)`, `Javascript`!
+I am Good at `Django`, `Python`, `HTML/CSS(SASS)`, `C#`!
 
 & Check List (Black & White)
 
@@ -36,4 +40,4 @@ I am Good at `React.js`, `HTML/CSS(SASS)`, `Javascript`!
 4. Ordered List
 
 <br />
-<br />
+<br />-->
