@@ -18,6 +18,7 @@
       "category": "Frameworks",
       "skills": [
         { "skill": "Django", "level": "3" },
+        { "skill": "ASP.Net", "level": "4" },
         { "skill": "React", "level": "1" }
       ]
     },
@@ -29,6 +30,7 @@
         { "skill": "Java", "level": "3" },
         { "skill": "C#", "level": "4" },
         { "skill": "C", "level": "3" },
+        { "skill": "Lua", "level": "2" },
         { "skill": "Javascript", "level": "3" },
         { "skill": "Typescript", "level": "2" },
         { "skill": "HTML/CSS(SASS)", "level": "4" }
@@ -58,24 +60,24 @@
 
   "projects": [
     {
-      "imgUrl": "",
-      "githubUrl": "https://github.com/ddongule",
-      "projectUrl": "",
-      "title": "[Team] Project Title",
-      "term": "21.02.02 v1.3.0",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "imgUrl": "/assets/images/LiveTerm_Berchil.png",
+      "githubUrl": "https://github.com/clownvar/LiveTerm",
+      "projectUrl": "https://live-term-nu.vercel.app",
+      "title": "[Personal]Web Terminal",
+      "term": "22.05.12 v1.2.0",
+      "description": "Web Terminal where you type commandes inside the browser.",
       "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
+      "tags": ["Node", "Typescript", "yarn", "Github"]
     },
     {
-      "imgUrl": "/assets/images/example-image-light.png",
-      "githubUrl": "https://github.com/ddongule",
-      "projectUrl": "",
-      "title": "[Personal] Project Title",
-      "term": "21.01.01 v1.0.0",
+      "imgUrl": "/assets/images/Advansys.png",
+      "githubUrl": "",
+      "projectUrl": "https://advansys2.herokuapp.com",
+      "title": "[Stage] Application web pour Advansys.",
+      "term": "22.04.01",
       "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
       "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
+      "tags": ["Python", "Django", "Requests", "Heroku", "Github", "JQuery", "JSON", "PostgreSQL", "SQLite", "HTML/SASS(CSS)/JS"]
     }
   ],
 
