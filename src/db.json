@@ -66,7 +66,7 @@
       "title": "[Personal] Web Terminal",
       "term": "22.05.12 v1.2.0",
       "description": "Web Terminal where you type commandes inside the browser.",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "attribution": "",
       "tags": ["Node", "Vercel", "Typescript", "Github"]
     },
     {
@@ -75,8 +75,8 @@
       "projectUrl": "https://advansys2.herokuapp.com",
       "title": "[Intership] Application web pour Advansys.",
       "term": "22.04.01",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
+      "description": "A website made with Html/Sass/Jquery as frontend Django as backend PostgreSQL as Database",
+      "attribution": "",
       "tags": ["Python", "Django", "Requests", "Heroku", "Github", "JQuery", "JSON", "PostgreSQL", "SQLite", "HTML/SASS(CSS)/JS"]
     }
   ],
@@ -112,7 +112,7 @@
       "experienceUrl": ""
     },
     {
-      "imgUrl": "/assets/images/example-image-light.png",
+      "imgUrl": "/assets/images/Advansys.png",
       "title": "[Stage] Advansys.",
       "term": "Avril 2022",
       "description": "Au cours de ce stage, j'ai appris les bases du fonctionnement d'une entreprise, le fait que vous gagnez de l'argent en vendant des services à votre client, et que vous travaillez ensemble pour le maintenir afin de rendre le client satisfait, tout en respectant un délai.",
