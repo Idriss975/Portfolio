@@ -63,17 +63,17 @@
       "imgUrl": "/assets/images/LiveTerm_Berchil.png",
       "githubUrl": "https://github.com/clownvar/LiveTerm",
       "projectUrl": "https://live-term-nu.vercel.app",
-      "title": "[Personal]Web Terminal",
+      "title": "[Personal] Web Terminal",
       "term": "22.05.12 v1.2.0",
       "description": "Web Terminal where you type commandes inside the browser.",
       "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["Node", "Typescript", "yarn", "Github"]
+      "tags": ["Node", "Vercel", "Typescript", "Github"]
     },
     {
       "imgUrl": "/assets/images/Advansys.png",
       "githubUrl": "",
       "projectUrl": "https://advansys2.herokuapp.com",
-      "title": "[Stage] Application web pour Advansys.",
+      "title": "[Intership] Application web pour Advansys.",
       "term": "22.04.01",
       "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
       "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
@@ -83,53 +83,48 @@
 
   "timestamp": [
     {
-      "title": "Woowa Sisters",
-      "when": "21.12 ~ ",
-      "organizer": "Woowa Sisters",
+      "title": "Stage (Internship) Développeur Dotnet",
+      "when": "Juillet - Septembre 2022",
+      "organizer": "L'Office de la formation professionnelle et de promotion du travail.",
       "tags": ["company"]
     },
 
     {
-      "title": "2021 Woowa Tech Course 3th",
-      "when": "21.02.01 - 21.11.31",
-      "organizer": "Woowa Bros",
-      "tags": ["techcourse"]
+      "title": "Stage (Internship) de fin d'études Développement FullStack Web",
+      "when": "Avril 2022",
+      "organizer": "Advansys", 
+      "tags": ["company"]
     },
     {
-      "title": "우아한 대학교 (Woowa University)",
-      "when": "20.08.25",
-      "organizer": "University of Woowa",
+      "title": "Technicien Specialisé en Développement Digital",
+      "when": "2020-2022",
+      "organizer": "CFMOTI - OFPPT",
       "tags": ["graduation"]
     }
   ],
 
   "experiences": [
     {
-      "imgUrl": "/assets/images/example-image-dark.png",
-      "title": "[Software Engineer] Woowa Corp.",
-      "term": "21.02 - 현재 진행 중",
-      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "experienceUrl": "https://woowacourse.github.io/"
+      "imgUrl": "https://www.ofppt.ma/themes/custom/ofppt/assets/images/logo.png",
+      "title": "[Stage] L'OFPPT.",
+      "term": "Avril 2022",
+      "description": "Les défis que j'ai rencontrés dans ce stage m'ont fait réaliser que j'étais plus capable que je ne le pensais, j'ai appris beaucoup de choses principalement comment communiquer, coopérer et surtout être empathique avec mes partenaires et mes collègues, j'ai compris ce qu'ils voulait sans leur demande sachant parfaitement que si j'applique un changement au logiciel comment cela affectera chacun d'eux.",
+      "experienceUrl": ""
     },
     {
       "imgUrl": "/assets/images/example-image-light.png",
-      "title": "[Intern] Woowa Corp.",
-      "term": "19.11 - 21.03",
-      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia .. ",
-      "experienceUrl": "https://woowacourse.github.io/"
+      "title": "[Stage] Advansys.",
+      "term": "Avril 2022",
+      "description": "Au cours de ce stage, j'ai appris les bases du fonctionnement d'une entreprise, le fait que vous gagnez de l'argent en vendant des services à votre client, et que vous travaillez ensemble pour le maintenir afin de rendre le client satisfait, tout en respectant un délai.",
+      "experienceUrl": "https://advansys2.herokuapp.com"
     }
   ],
 
   "educations": [
     {
-      "title": "우아한 대학교 (Woowa University)",
-      "term": "2013.03 - 2017.03",
-      "description": "척척박사 졸업"
-    },
-    {
-      "title": "잠실 고등학교 (Jamsil High School)",
-      "term": "2010.03 - 2013.02",
-      "description": "인문계 졸업"
+      "title": "Technicien Specialisé en Développement Digital",
+      "term": "2020-2022",
+      "description": ""
     }
   ]
 }
