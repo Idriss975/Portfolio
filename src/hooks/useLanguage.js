@@ -8,13 +8,13 @@ const useLanguage = () => {
 
   const changeLanguage = () => {
     if (i18n.language === LANGUAGE.EN) {
-      i18n.changeLanguage(LANGUAGE.KO);
-      setCurrentLanguage(LANGUAGE.KO);
+      i18n.changeLanguage(LANGUAGE.FR);
+      setCurrentLanguage(LANGUAGE.FR);
 
       return;
     }
 
-    if (i18n.language === LANGUAGE.KO) {
+    if (i18n.language === LANGUAGE.FR) {
       i18n.changeLanguage(LANGUAGE.EN);
       setCurrentLanguage(LANGUAGE.EN);
 

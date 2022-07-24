@@ -2,11 +2,11 @@
 
 # Hi!
 
-## my Name is **Berchil Idriss**
+## my Name is **Berchil Idriss**.
 
 <br/>
 
-## I'm a developper who has been building program interfaces, softwares for companies and as personal projects.
+## I'm a developper who has been building computer programs, softwares and websites for companies and as personal projects.
 
 <!--
 <br />
