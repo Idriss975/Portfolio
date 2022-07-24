@@ -1,7 +1,8 @@
 {
   "meta": {
     "title": "Berchil",
-    "defaultLanguage": "Français"
+    "defaultLanguage": "Français",
+    "CV":"../assets/documents/Berchil_Idriss_CV.pdf"
   },
   "aboutMe": {
     "name": "BERCHIL Idriss",
