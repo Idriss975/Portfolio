@@ -4,16 +4,19 @@ import React from 'react';
 import SubTitle from '../common/SubTitle';
 import myData from '../../db.json';
 import { useTranslation } from 'react-i18next';
+import useLanguage from '../../hooks/useLanguage';
+import { LANGUAGE } from '../../constants/language';
 
 const SkillSets = () => {
   const { skillSets } = myData;
   const { t } = useTranslation();
+  const { currentLanguage } = useLanguage();
 
   return (
     <>
       {skillSets && (
         <>
-          <SubTitle>Skill Sets</SubTitle>
+          <SubTitle>{currentLanguage === LANGUAGE.EN?"Skill Sets":"Compétences"}</SubTitle>
           <div className='skill-sets-container'>
             <div className='description'>
               <div className='description-item'>
@@ -28,7 +31,7 @@ const SkillSets = () => {
             </div>
             {skillSets.map((set, index) => (
               <div className='skill-set' key={index}>
-                <div className='category'>{set.category}</div>
+                <div className='category'>{currentLanguage === LANGUAGE.EN?set.category[0]:set.category[1]}</div>
                 <div className='items'>
                   {set.skills
                     .sort((a, b) => b.level - a.level)

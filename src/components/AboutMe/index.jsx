@@ -76,11 +76,11 @@ const AboutMe = () => {
 
   return (
     <>
-      <SubTitle>About Me</SubTitle>
+      <SubTitle>{currentLanguage === LANGUAGE.EN?"About Me":"À propos de moi"}</SubTitle>
       <div className='about-me-container'>
         <div className='personal-infos'>
           <div className='profile-image'>
-            <img src={profileImg} alt={`${name}의 사진`} />
+            <img src={profileImg} alt={`${name}`} />
           </div>
           <div className='detail-wrapper'>
             <div className='details'>
@@ -123,7 +123,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className='introduce'>
-          <div className='subtitle'>Let me Introduce myself</div>
+          <div className='subtitle'>{currentLanguage === LANGUAGE.EN?"Let me Introduce myself":"Laisse moi me présenter"}</div>
           <div className='about' ref={aboutMyselfRef}></div>
         </div>
       </div>

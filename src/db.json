@@ -15,7 +15,7 @@
 
   "skillSets": [
     {
-      "category": "Frameworks",
+      "category": ["Frameworks","Frameworks"],
       "skills": [
         { "skill": "Django", "level": "3" },
         { "skill": "ASP.Net", "level": "4" },
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "category": "Coding Languages",
+      "category": ["Coding Languages","Langages de codage"],
       "skills": [
         { "skill": "Python", "level": "4" },
 
@@ -37,13 +37,13 @@
       ]
     },
     {
-      "category": "Collaboration Skills",
+      "category": ["Collaboration Skills","Compétences collaboratives"],
       "skills": [
         { "skill": "Git/Github" }
       ]
     },
     {
-      "category": "SQL Database",
+      "category": ["SQL Database", "Base de données SQL"],
       "skills": [
         { "skill": "SQL Server"},
         { "skill": "SQLite" },
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "category": "Etc...",
+      "category": ["Etc...","Etc..."],
       "skills": [
         { "skill": "Heroku" }
       ]
@@ -107,7 +107,7 @@
     {
       "imgUrl": "https://www.ofppt.ma/themes/custom/ofppt/assets/images/logo.png",
       "title": "[Stage] L'OFPPT.",
-      "term": "Avril 2022",
+      "term": "Juillet 2022 - Septembre 2022",
       "description": "Les défis que j'ai rencontrés dans ce stage m'ont fait réaliser que j'étais plus capable que je ne le pensais, j'ai appris beaucoup de choses principalement comment communiquer, coopérer et surtout être empathique avec mes partenaires et mes collègues, j'ai compris ce qu'ils voulait sans leur demande sachant parfaitement que si j'applique un changement au logiciel comment cela affectera chacun d'eux.",
       "experienceUrl": ""
     },
