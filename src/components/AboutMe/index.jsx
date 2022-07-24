@@ -123,7 +123,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className='introduce'>
-          <div className='subtitle'>{currentLanguage === LANGUAGE.EN?"Let me Introduce myself":"Laisse moi me présenter"}</div>
+          <div className='subtitle'>{currentLanguage === LANGUAGE.EN?"Let me Introduce myself":"Laissez moi me présenter"}</div>
           <div className='about' ref={aboutMyselfRef}></div>
         </div>
       </div>
