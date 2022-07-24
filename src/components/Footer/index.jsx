@@ -8,10 +8,10 @@ const Footer = () => {
       <a
         target='_blank'
         rel='noopener noreferrer'
-        href='https://github.com/ddongule/ddongule-simple-portfolio'
+        href='https://github.com/clownvar/ddongule-simple-portfolio'
       >
         <p className='footer-contents'>
-          <span className='icon'>&copy; 2021</span> ddongule-simple-portfolio
+          <span className='icon'>&copy; 2022</span> Berchil Idriss
         </p>
       </a>
     </div>
