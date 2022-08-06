@@ -1,7 +1,8 @@
 import './index.scss';
 
 import React from 'react';
-import noImage from '../../../assets/static/images/no-image.png'
+import gtag from 'ga-gtag';
+import noImage from '../../../assets/static/images/no-image.png';
 
 const ProjectItem = ({
   title,
@@ -22,9 +23,10 @@ const ProjectItem = ({
         href={projectUrl}
         target='_blank'
         rel='noopener noreferrer'
+        onClick={() => gtag("event","ProjectClick_"+title.replaceAll(" ","_"))}
       >
         <div className='item__image'>
-          <img src={imgUrl} alt={`${title} logo 이미지`} onError={addDefaultSrc} />
+          <img src={imgUrl} alt={`${title} logo`} onError={addDefaultSrc} />
         </div>
         <div className='item__details'>
           <div className='title'>
@@ -43,7 +45,7 @@ const ProjectItem = ({
       </a>
       {githubUrl && (
         <div className='project__links'>
-          <a href={githubUrl}>
+          <a href={githubUrl} onClick={() => gtag("event", "ProjectGitClick_"+title.replaceAll(" ","_"))}>
             <div className='github-logo' />
           </a>
         </div>
