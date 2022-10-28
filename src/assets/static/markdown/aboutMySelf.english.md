@@ -6,7 +6,7 @@
 
 <br/>
 
-## I'm a developper who has been building computer programs, softwares and websites for companies and as personal projects.
+## I'm a developper who has been building softwares and websites for companies or as a personal project.
 
 <!--
 <br />

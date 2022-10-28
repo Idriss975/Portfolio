@@ -6,4 +6,4 @@
 
 <br/>
 
-## Je suis un développeur qui crée des programmes informatiques, des logiciels et des sites Web pour des entreprises et des projets personnels.
+## Je suis un développeur informatique, je crée des logiciels, des sites Web aux entreprises ou en tant que projet personnel.

@@ -3,12 +3,15 @@ import './index.scss';
 import React from 'react';
 import gtag from 'ga-gtag';
 import noImage from '../../../assets/static/images/no-image.png'
+import useLanguage from '../../../hooks/useLanguage';
+import { LANGUAGE } from '../../../constants/language';
 
 const Event = ({ event }) => {
-  const { imgUrl, experienceUrl, title, term, description, attribution, tags } =
+  const { imgUrl, experienceUrl, title, term, descriptionFR, descriptionEN, attribution, tags } =
     event;
   
   const addDefaultSrc=({target}) => (target.src = noImage)
+  const { currentLanguage } = useLanguage();
 
   return (
     <a href={experienceUrl} onClick={()=>gtag("event","ExperiencesClick_"+title.replaceAll(" ","_"))} target='_blank' rel='noopener noreferrer'>
@@ -20,7 +23,7 @@ const Event = ({ event }) => {
           <div className='title'>
             {title} <span className='term'>({term})</span>
           </div>
-          <div className='description'>{description}</div>
+          <div className='description'>{currentLanguage === LANGUAGE.FR?descriptionFR:descriptionEN}</div>
           {attribution && <div className='attribution'>{attribution}</div>}
 
           {tags && (

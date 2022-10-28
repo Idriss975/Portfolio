@@ -31,10 +31,12 @@
         { "skill": "Java", "level": "3" },
         { "skill": "C#", "level": "4" },
         { "skill": "C", "level": "3" },
+        { "skill": "C++", "level": "4" },
         { "skill": "Lua", "level": "2" },
         { "skill": "Javascript", "level": "3" },
         { "skill": "Typescript", "level": "2" },
-        { "skill": "HTML/CSS(SASS)", "level": "4" }
+        { "skill": "HTML/CSS(SASS)", "level": "4" },
+        { "skill": "PHP", "level": "1" }
       ]
     },
     {
@@ -48,7 +50,8 @@
       "skills": [
         { "skill": "SQL Server"},
         { "skill": "SQLite" },
-        { "skill": "PosgreSQL" }
+        { "skill": "PosgreSQL" },
+        { "skill": "Oracle SQL" }
       ]
     },
     {
@@ -66,7 +69,8 @@
       "projectUrl": "https://live-term-nu.vercel.app",
       "title": "[Personal] Web Terminal",
       "term": "22.05.12 v1.2.0",
-      "description": "Web Terminal where you type commandes inside the browser.",
+      "descriptionEN": "A terminal where you type commands inside your browser.",
+      "descriptionFR": "Un terminal dans lequel vous tapez des commandes dans votre navigateur.",
       "attribution": "",
       "tags": ["Node", "Vercel", "Typescript", "Github"]
     },
@@ -76,13 +80,20 @@
       "projectUrl": "https://advansys2.herokuapp.com",
       "title": "[Intership] Application web pour Advansys.",
       "term": "22.04.01",
-      "description": "A website made with Html/Sass/Jquery as frontend Django as backend PostgreSQL as Database",
+      "descriptionEN": "A website made with Html/Sass/Jquery as frontend Django as backend PostgreSQL as a Database.",
+      "descriptionFR": "Un site Web réalisé avec Html/Sass/Jquery comme frontend Django comme backend PostgreSQL comme base de données.",
       "attribution": "",
       "tags": ["Python", "Django", "Requests", "Heroku", "Github", "JQuery", "JSON", "PostgreSQL", "SQLite", "HTML/SASS(CSS)/JS"]
     }
   ],
 
   "timestamp": [
+    {
+      "title": "Ingénierie Informatique et Réseaux",
+      "when": "2022 - 2025",
+      "organizer": "École Marocaine des Sciences de l’Ingénieur  EMSI",
+      "tags": ["graduation"]
+    },
     {
       "title": "Stage (Internship) Développeur Dotnet",
       "when": "Juillet - Septembre 2022",
@@ -109,19 +120,26 @@
       "imgUrl": "/assets/images/OFPPT_logo.png",
       "title": "[Stage] L'OFPPT.",
       "term": "Juillet 2022 - Septembre 2022",
-      "description": "Les défis que j'ai rencontrés dans ce stage m'ont fait réaliser que j'étais plus capable que je ne le pensais, j'ai appris beaucoup de choses principalement comment communiquer, coopérer et surtout être empathique avec mes partenaires et mes collègues, j'ai compris ce qu'ils voulait sans leur demande sachant parfaitement que si j'applique un changement au logiciel comment cela affectera chacun d'eux.",
+      "descriptionFR": "Les défis que j'ai rencontrés dans ce stage m'ont fait réaliser que j'étais plus capable que je ne le pensais, j'ai appris beaucoup de choses principalement comment communiquer, coopérer et surtout être empathique avec mes partenaires et mes collègues, j'ai compris ce qu'ils voulait sans leur demande sachant parfaitement que si j'applique un changement au logiciel comment cela affectera chacun d'eux.",
+      "descriptionEN": "The challenges I encountered in this internship made me realize that I was more capable than I thought, I learned a lot of things mainly how to communicate, cooperate and above all be empathetic with my partners and colleagues, I understood what they wanted without their request knowing full well that if I apply a change to the software how it will affect each of them.",
       "experienceUrl": ""
     },
     {
       "imgUrl": "/assets/images/Advansys.png",
       "title": "[Stage] Advansys.",
       "term": "Avril 2022",
-      "description": "Au cours de ce stage, j'ai appris les bases du fonctionnement d'une entreprise, le fait que vous gagnez de l'argent en vendant des services à votre client, et que vous travaillez ensemble pour le maintenir afin de rendre le client satisfait, tout en respectant un délai.",
+      "descriptionFR": "Au cours de ce stage, j'ai appris les bases du fonctionnement d'une entreprise, le fait que vous gagnez de l'argent en vendant des services à votre client, et que vous travaillez ensemble pour le maintenir afin de rendre le client satisfait, tout en respectant un délai.",
+      "descriptionEN": "During this internship, I learned the basics of how a business works, the fact that you make money by selling services to your client, and that you work together to maintain it in order to satisfy the client's needs, while respecting a deadline.",
       "experienceUrl": "https://advansys2.herokuapp.com"
     }
   ],
 
   "educations": [
+    {
+      "title": "Ingénierie Informatique et Réseaux",
+      "term": "2022-2025",
+      "description": ""
+    },
     {
       "title": "Technicien Specialisé en Développement Digital",
       "term": "2020-2022",
