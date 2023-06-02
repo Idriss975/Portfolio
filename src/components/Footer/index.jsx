@@ -9,7 +9,7 @@ const Footer = () => {
       <a
         target='_blank'
         rel='noopener noreferrer'
-        href='https://github.com/clownvar/ddongule-simple-portfolio'
+        href='https://www.linkedin.com/in/idriss-berchil/'
         onClick={() => gtag("event","Footer_Clicked")}
       >
         <p className='footer-contents'>

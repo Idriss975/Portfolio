@@ -14,7 +14,7 @@ function App() {
     <>
       <Helmet>
         <title>{title}</title>
-        <script>if (location.hostname.split('.')[0] === "cv") location.href = "https://www.berchil.in/assets/documents/Berchil_Idriss_CV.pdf";</script>
+        <script>if (location.hostname.split('.')[0] === "cv") location.href = "https://www.berchil.in/assets/documents/Berchil_Idriss_CV-FR.pdf";</script>
       </Helmet>
       <ThemeChangeContextProvider>
         <LanguageContextProvider>

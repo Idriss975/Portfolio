@@ -18,17 +18,6 @@ const SkillSets = () => {
         <>
           <SubTitle>{currentLanguage === LANGUAGE.EN?"Skill Sets":"Compétences"}</SubTitle>
           <div className='skill-sets-container'>
-            <div className='description'>
-              <div className='description-item'>
-                <span className='level expert'>4 - 5</span>: {t('skill-sets-professional')}
-              </div>
-              <div className='description-item'>
-                <span className='level'>3</span>: {t('skill-sets-advanced')}
-              </div>
-              <div className='description-item'>
-                <span className='level'>1 - 2</span>: {t('skill-sets-beginner')}
-              </div>
-            </div>
             {skillSets.map((set, index) => (
               <div className='skill-set' key={index}>
                 <div className='category'>{currentLanguage === LANGUAGE.EN?set.category[0]:set.category[1]}</div>

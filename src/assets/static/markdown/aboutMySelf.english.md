@@ -6,7 +6,11 @@
 
 <br/>
 
-## I'm a developper who has been building softwares and websites for companies or as a personal project.
+## I'm a +B+computer and network engineering student+B+, I have passion for +B+problem-solving+B+ and +B+innovation+B+, I have developed expertise in programming languages such as `Python`, `C#` and `C++`. I am skilled in developing software applications and algorithms, with a focus on improving system performance and efficiency. 
+
+<br/>
+
+## I have gained hands-on experience installing +G+SQL server+G+ as a database, building desktop software using C#, and using +G+Django+G+ as a back-end framework. I am excited to +R+explore new technologies+R+, learn from +R+experienced professionals+R+, and make +R+meaningful contributions to the field+R+.
 
 <!--
 <br />

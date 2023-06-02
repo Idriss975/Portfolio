@@ -25,7 +25,7 @@ const  ThemeMode = () => {
           <option value='English'>English</option>
           <option value='Français'>Français</option>
         </select>
-        <a href={CV} onClick={()=>gtag("event","Resume_click")}>{currentLanguage === LANGUAGE.EN?"Resume":"CV"}</a>
+        <a href={currentLanguage === LANGUAGE.EN? CV[0]: CV[1]} onClick={()=>gtag("event","Resume_click")}>{currentLanguage === LANGUAGE.EN?"Resume":"CV"}</a>
       </div>
       <div className='theme-container'>
         <button onClick={function() {

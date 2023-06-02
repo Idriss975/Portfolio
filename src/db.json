@@ -2,14 +2,14 @@
   "meta": {
     "title": "Berchil",
     "defaultLanguage": "Français",
-    "CV":"../assets/documents/Berchil_Idriss_CV.pdf"
+    "CV":["../assets/documents/Idriss-BERCHIL-CV-EN.pdf", "../assets/documents/Idriss-BERCHIL-CV-FR.pdf"]
   },
   "aboutMe": {
     "name": "BERCHIL Idriss",
     "nickName": "Portfolio",
     "profileImg": "../assets/images/me.jpg",
     "email": "idrissberchil@berchil.in",
-    "githubUrl": "https://github.com/clownvar",
+    "githubUrl": "https://github.com/Idriss975",
     "blogUrl": "",
     "linkedInUrl": "https://linkedin.com/in/idriss-berchil"
   },
@@ -18,31 +18,31 @@
     {
       "category": ["Frameworks","Frameworks"],
       "skills": [
-        { "skill": "Django", "level": "3" },
-        { "skill": "ASP.Net", "level": "4" },
-        { "skill": "React", "level": "1" }
+        { "skill": "Django"},
+        { "skill": "ASP.Net"},
+        { "skill": "React"}
       ]
     },
     {
       "category": ["Coding Languages","Langages de codage"],
       "skills": [
-        { "skill": "Python", "level": "4" },
-
-        { "skill": "Java", "level": "3" },
-        { "skill": "C#", "level": "4" },
-        { "skill": "C", "level": "3" },
-        { "skill": "C++", "level": "4" },
-        { "skill": "Lua", "level": "2" },
-        { "skill": "Javascript", "level": "3" },
-        { "skill": "Typescript", "level": "2" },
-        { "skill": "HTML/CSS(SASS)", "level": "4" },
-        { "skill": "PHP", "level": "1" }
+        { "skill": "Python" },
+        { "skill": "C#" },
+        { "skill": "C" },
+        { "skill": "C++" },
+        { "skill": "Lua" },
+        { "skill": "Javascript" },
+        { "skill": "Typescript" },
+        { "skill": "HTML/CSS(SASS)" },
+        { "skill": "PHP" }
       ]
     },
     {
-      "category": ["Collaboration Skills","Compétences collaboratives"],
+      "category": ["Softskills","Softskills"],
       "skills": [
-        { "skill": "Git/Github" }
+        { "skill": "Flexibility" },
+        { "skill": "Problem solving" },
+        { "skill": "Independant" }
       ]
     },
     {
@@ -53,22 +53,24 @@
         { "skill": "PosgreSQL" },
         { "skill": "Oracle SQL" }
       ]
-    },
-    {
-      "category": ["Etc...","Etc..."],
-      "skills": [
-        { "skill": "Heroku" }
-      ]
     }
   ],
 
   "projects": [
     {
+      "imgUrl": "/assets/images/logo.webp",
+      "githubUrl": "https://github.com/Idriss975/Gestion-de-vaccination",
+      "title": "[Academic] Vaccine management",
+      "term": "30/05/2023",
+      "attribution": "",
+      "tags": ["Django", "Python", "RestAPI", "Web services", "AJAX"]
+    },
+    {
       "imgUrl": "/assets/images/LiveTerm_Berchil.png",
       "githubUrl": "https://github.com/clownvar/LiveTerm",
       "projectUrl": "https://live-term-nu.vercel.app",
       "title": "[Personal] Web Terminal",
-      "term": "22.05.12 v1.2.0",
+      "term": "6/8/2022",
       "descriptionEN": "A terminal where you type commands inside your browser.",
       "descriptionFR": "Un terminal dans lequel vous tapez des commandes dans votre navigateur.",
       "attribution": "",
@@ -79,7 +81,7 @@
       "githubUrl": "",
       "projectUrl": "https://advansys2.herokuapp.com",
       "title": "[Intership] Application web pour Advansys.",
-      "term": "22.04.01",
+      "term": "30/4/2022",
       "descriptionEN": "A website made with Html/Sass/Jquery as frontend Django as backend PostgreSQL as a Database.",
       "descriptionFR": "Un site Web réalisé avec Html/Sass/Jquery comme frontend Django comme backend PostgreSQL comme base de données.",
       "attribution": "",
@@ -136,7 +138,7 @@
 
   "educations": [
     {
-      "title": "Ingénierie Informatique et Réseaux",
+      "title": "Ingénierie en Informatique et Réseaux",
       "term": "2022-2025",
       "description": ""
     },
