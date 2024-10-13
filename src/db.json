@@ -58,6 +58,14 @@
 
   "projects": [
     {
+      "imgUrl": "/assets/images/DevOpsLoop.png",
+      "githubUrl": "https://github.com/Idriss975/Student_Portal_Symolia_Stage_DEVOPS",
+      "title": "[Intership] Student Portal",
+      "term": "15/07/2024",
+      "attribution": "",
+      "tags": ["Github Actions", "CI/CD", "Python", "unit testing", "Integration Testing"]
+    },
+    {
       "imgUrl": "/assets/images/logo.webp",
       "githubUrl": "https://github.com/Idriss975/Gestion-de-vaccination",
       "title": "[Academic] Vaccine management",
@@ -97,6 +105,12 @@
       "tags": ["graduation"]
     },
     {
+      "title": "Stage (Internship) DevOPS Engineer",
+      "when": "2024 - 2025",
+      "organizer": "Symolia",
+      "tags": ["company"]
+    },
+    {
       "title": "Stage (Internship) Développeur Dotnet",
       "when": "Juillet - Septembre 2022",
       "organizer": "L'Office de la formation professionnelle et de promotion du travail.",
@@ -118,6 +132,14 @@
   ],
 
   "experiences": [
+    {
+      "imgUrl": "/assets/images/Symolia.jpg",
+      "title": "[Stage] SYMOLIA",
+      "term": "Juillet 2022 - Septembre 2022",
+      "descriptionFR": "",
+      "descriptionEN": "",
+      "experienceUrl": "https://github.com/Idriss975/Student_Portal_Symolia_Stage_DEVOPS"
+    },
     {
       "imgUrl": "/assets/images/OFPPT_logo.png",
       "title": "[Stage] L'OFPPT.",
